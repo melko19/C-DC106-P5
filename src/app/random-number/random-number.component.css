@@ -1,0 +1,27 @@
+.all {
+    padding: 30px;
+}
+
+button {
+    height: 120px;
+    width: 120px;
+    font-size: 4.5rem;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+h1 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+input {
+    background-color: rgb(23, 24, 24);
+    color:white;
+    text-align: center;
+    height: 80px;
+    width: 200px;
+    font-size: 4.5rem;
+}

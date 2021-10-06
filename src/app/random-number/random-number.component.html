@@ -1,0 +1,13 @@
+<div class="container text-center mt-5">
+    <div class="all">
+        <button  *ngFor="let num of randnumbers; let i = index" class="btn btn-info" (click)="displaySelected(i)">{{ num }}</button>
+    </div>
+
+    <div class="selected">
+        <h1>You have Selected</h1>
+        <div>
+            <input type="number" [value]="selected" readonly>
+        </div>
+
+    </div>
+</div>
